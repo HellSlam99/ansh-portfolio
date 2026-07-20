@@ -76,19 +76,33 @@ export function Experience() {
                         index % 2 === 0 ? "sm:text-right" : ""
                       }`}
                     >
-                      {item.responsibilities.map((resp, respIndex) => (
+                      {item.responsibilities.map((resp) => (
                         <motion.li
-                          key={resp}
-                          initial={prefersReducedMotion ? {} : { opacity: 0, x: index % 2 === 0 ? 12 : -12 }}
+                          key={resp.text}
+                          initial={
+                            prefersReducedMotion
+                              ? {}
+                              : { opacity: 0, x: index % 2 === 0 ? 12 : -12 }
+                          }
                           whileInView={{ opacity: 1, x: 0 }}
                           viewport={{ once: true }}
-                          transition={{ delay: respIndex * 0.05 }}
+                          transition={{ delay: 0.05 }}
                           className={`flex gap-2 text-sm leading-relaxed text-muted-foreground ${
                             index % 2 === 0 ? "sm:flex-row-reverse" : ""
                           }`}
                         >
-                          <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-primary" aria-hidden="true" />
-                          <span>{resp}</span>
+                          <span
+                            className="mt-2 h-1 w-1 shrink-0 rounded-full bg-primary"
+                            aria-hidden="true"
+                          />
+                          <span>
+                            {resp.text}
+                            {resp.highlight && (
+                              <span className="ml-2 inline-block rounded-md bg-indigo-500/10 px-2 py-0.5 text-xs font-semibold text-primary">
+                                {resp.highlight}
+                              </span>
+                            )}
+                          </span>
                         </motion.li>
                       ))}
                     </ul>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { aboutContent, siteConfig } from "@/lib/data";
 import { FadeIn } from "@/components/effects/fade-in";
@@ -30,10 +31,21 @@ export function About() {
           <FadeIn direction="left" className="lg:col-span-2">
             <Card className="gradient-border h-full overflow-hidden">
               <CardContent className="flex h-full flex-col justify-center p-8">
-                <div className="mx-auto mb-6 flex h-32 w-32 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500/20 to-blue-500/20 sm:h-40 sm:w-40">
-                  <span className="text-4xl font-bold gradient-text sm:text-5xl">
-                    {siteConfig.initials}
-                  </span>
+                <div className="relative mx-auto mb-6 h-32 w-32 sm:h-40 sm:w-40">
+                  <div
+                    className="absolute inset-0 rounded-2xl bg-gradient-to-br from-indigo-500/40 to-blue-500/40 blur-md"
+                    aria-hidden="true"
+                  />
+                  <div className="relative h-full w-full overflow-hidden rounded-2xl border border-indigo-500/30 shadow-lg shadow-indigo-500/10 ring-1 ring-indigo-500/20">
+                    <Image
+                      src={siteConfig.profileImage}
+                      alt={siteConfig.profileImageAlt}
+                      fill
+                      loading="lazy"
+                      sizes="(max-width: 640px) 128px, 160px"
+                      className="object-cover object-top"
+                    />
+                  </div>
                 </div>
                 <h3 className="text-center text-xl font-semibold">
                   {siteConfig.name}

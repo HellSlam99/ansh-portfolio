@@ -136,7 +136,12 @@ export function CommandPalette() {
               value="Download Resume"
               onSelect={() => {
                 setOpen(false);
-                window.open(siteConfig.resumePath, "_blank");
+                const link = document.createElement("a");
+                link.href = siteConfig.resumePath;
+                link.download = "Ansh_Garg_Resume.pdf";
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
               }}
               className="flex cursor-pointer items-center gap-3 rounded-lg px-3 py-2.5 text-sm aria-selected:bg-accent/10"
             >

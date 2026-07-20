@@ -109,8 +109,6 @@ export function Hero() {
                 <Link
                   href={siteConfig.resumePath}
                   download="Ansh_Garg_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <Download className="h-4 w-4" />
                   Download Resume

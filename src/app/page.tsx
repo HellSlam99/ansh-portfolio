@@ -4,7 +4,6 @@ import { Skills } from "@/components/sections/skills";
 import { Experience } from "@/components/sections/experience";
 import { Projects } from "@/components/sections/projects";
 import { Exploring } from "@/components/sections/exploring";
-import { GitHubSection } from "@/components/sections/github-section";
 import { TerminalSection } from "@/components/sections/terminal-section";
 import { Certifications } from "@/components/sections/certifications";
 import { Contact } from "@/components/sections/contact";
@@ -18,7 +17,6 @@ export default function Home() {
       <Experience />
       <Projects />
       <Exploring />
-      <GitHubSection />
       <TerminalSection />
       <Certifications />
       <Contact />

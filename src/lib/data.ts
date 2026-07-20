@@ -1,28 +1,32 @@
 export const siteConfig = {
   name: "Ansh Garg",
   initials: "AG",
-  title: "SDET | QA Automation Engineer | Python Developer",
+  title: "Software Development Engineer in Test (SDET)",
   email: "anshgarg2593@gmail.com",
   location: "Surat, Gujarat, India",
   description:
-    "Building reliable automation frameworks, API validation systems and AI-assisted troubleshooting solutions.",
+    "Designing scalable automation frameworks, API validation systems and AI-assisted quality engineering solutions for enterprise software.",
   url: "https://github.com/HellSlam99",
   githubUsername: "HellSlam99",
   linkedin: "https://www.linkedin.com/in/ansh-garg-898343314/",
   resumePath: "/resume/Ansh_Garg_Resume.pdf",
+  profileImage: "/images/profile.png",
+  profileImageAlt:
+    "Professional portrait of Ansh Garg, Software Development Engineer in Test, wearing a gray shirt and glasses while holding a laptop in a modern office setting.",
   ogImage: "/og-image.png",
   keywords: [
     "SDET",
+    "Software Development Engineer in Test",
     "QA Automation Engineer",
-    "Python Developer",
-    "Test Automation",
-    "Selenium",
-    "Playwright",
+    "Python Automation",
+    "Test Automation Framework",
     "API Testing",
-    "FastAPI",
+    "Playwright",
+    "Selenium",
+    "Pytest",
     "CI/CD",
-    "Jenkins",
-    "Quality Assurance",
+    "AI-Assisted Testing",
+    "Quality Engineering",
   ],
 };
 
@@ -32,7 +36,6 @@ export const navLinks = [
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
-  { href: "#github", label: "GitHub" },
   { href: "#certifications", label: "Certs" },
   { href: "#contact", label: "Contact" },
 ];
@@ -40,8 +43,9 @@ export const navLinks = [
 export const typingTexts = [
   "Software Development Engineer in Test",
   "QA Automation Engineer",
+  "Python Automation Engineer",
   "Python Developer",
-  "AI-driven Troubleshooting Enthusiast",
+  "AI-Assisted Testing Enthusiast",
 ];
 
 export const socialLinks = [
@@ -55,107 +59,198 @@ export const socialLinks = [
 ];
 
 export const stats = [
-  { label: "Years Experience", value: 1, suffix: "+" },
-  { label: "Projects", value: 10, suffix: "+" },
-  { label: "Manual Effort Reduction", value: 40, suffix: "%" },
-  { label: "Certifications", value: 8, suffix: "+" },
+  { label: "Regression Tests Automated", value: 23, suffix: "K+" },
+  { label: "Release Validation Reduction", value: 83, suffix: "%" },
+  { label: "Manual Validation Reduction", value: 80, suffix: "%" },
+  { label: "Certifications", value: 5, suffix: "" },
 ];
 
 export const aboutContent = {
-  heading: "Engineering Quality &",
-  headingAccent: "Reliability",
+  heading: "Quality Engineering &",
+  headingAccent: "Automation",
   paragraphs: [
-    "Computer Science graduate and Automation & QA Engineer at Motadata, working on enterprise-scale NMS and ITSM platforms.",
-    "My experience spans test automation, API validation, production issue analysis, Python development and CI/CD workflows.",
-    "I enjoy building reliable systems that reduce manual effort and improve software quality while exploring AI-assisted troubleshooting solutions.",
+    "Software Development Engineer in Test specializing in Python automation, framework architecture and AI-assisted quality engineering for enterprise NMS and observability platforms.",
+    "I design scalable automation frameworks with Pytest, Playwright and Selenium — covering UI, API and end-to-end validation with parallel execution, structured reporting and CI/CD integration.",
+    "My work spans REST API validation, Linux-based production diagnostics, SQL-backed backend verification and root cause analysis — reducing manual validation cycles and accelerating release confidence across agile teams.",
   ],
 };
 
 export const skillsDescription =
-  "Core competencies in test automation, API validation, Python development and CI/CD — with growing expertise in AI-assisted QA workflows.";
+  "End-to-end quality engineering across automation frameworks, API validation, CI/CD pipelines and AI-assisted testing workflows.";
 
 export const skillCategories = [
   {
-    title: "Automation & Testing",
+    title: "Programming",
+    skills: ["Python", "JavaScript"],
+  },
+  {
+    title: "Automation",
+    skills: ["Pytest", "Selenium", "Playwright", "Appium"],
+  },
+  {
+    title: "Testing",
     skills: [
-      "Selenium",
-      "Playwright",
-      "API Testing",
+      "Functional Testing",
       "Regression Testing",
-      "Test Case Design",
+      "End-to-End Testing",
+      "Cross Browser Testing",
+      "Mobile Testing",
+      "API Testing",
+      "Data Driven Testing",
     ],
   },
   {
-    title: "Programming",
-    skills: ["Python", "JavaScript", "Java"],
+    title: "API",
+    skills: [
+      "REST APIs",
+      "Requests",
+      "Swagger/OpenAPI",
+      "OAuth 2.0",
+      "JWT Authentication",
+      "JSON Schema Validation",
+      "Postman",
+    ],
   },
   {
-    title: "Backend",
-    skills: ["FastAPI", "Flask", "REST APIs", "Swagger"],
-  },
-  {
-    title: "AI & Data",
-    skills: ["RAG", "Ollama", "Pandas", "NumPy", "MCP"],
+    title: "Framework Design",
+    skills: [
+      "Pytest Fixtures",
+      "Markers",
+      "Parametrization",
+      "Parallel Execution",
+      "Allure Reports",
+      "Logging",
+      "Screenshot Capture",
+      "Video Recording",
+    ],
   },
   {
     title: "DevOps",
-    skills: ["Jenkins", "GitHub Actions", "Docker", "CI/CD"],
+    skills: ["Git", "GitHub", "GitHub Actions", "Jenkins", "Docker", "CI/CD"],
   },
   {
-    title: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    title: "Database",
+    skills: ["MySQL", "PostgreSQL"],
   },
   {
     title: "Systems",
-    skills: ["Linux", "Networking", "NMS", "ITSM"],
+    skills: ["Linux", "Networking Fundamentals", "Network Monitoring Systems"],
+  },
+  {
+    title: "Cloud",
+    skills: ["AWS", "Azure", "GCP", "HA", "DR"],
+  },
+  {
+    title: "Core Engineering",
+    skills: [
+      "Data Structures",
+      "Algorithms",
+      "SDLC",
+      "STLC",
+      "Debugging",
+      "Root Cause Analysis",
+    ],
+  },
+  {
+    title: "AI",
+    skills: ["AI-Assisted Test Case Generation", "AI-Assisted Test Execution"],
   },
 ];
 
 export const currentlyExploring = [
   {
-    title: "AI-assisted QA Pipelines",
-    description: "Integrating AI into test planning, execution and reporting workflows.",
+    title: "Enterprise Test Automation Frameworks",
+    description:
+      "Designing modular, reusable frameworks for large-scale enterprise validation workflows.",
   },
   {
-    title: "Playwright Automation",
-    description: "Building scalable end-to-end test suites with modern browser automation.",
+    title: "Playwright & Appium Automation",
+    description:
+      "Cross-browser and mobile automation with modern tooling and device farm integration.",
   },
   {
-    title: "MCP-based AI Agents",
-    description: "Designing agentic workflows for tooling integration and support automation.",
+    title: "AI-Assisted QA Pipelines",
+    description:
+      "Integrating AI into test planning, execution and large-scale regression pipelines.",
   },
   {
-    title: "GenAI for Production Troubleshooting",
-    description: "Applying LLMs and RAG to accelerate root cause analysis in production.",
+    title: "Large Scale API Testing",
+    description:
+      "Schema validation, authentication flows and backend regression at enterprise scale.",
   },
   {
-    title: "CI/CD & Test Automation Frameworks",
-    description: "Pipeline-driven quality gates and reusable automation architecture.",
+    title: "CI/CD Test Automation",
+    description:
+      "Pipeline-driven quality gates with parallel execution and automated reporting.",
+  },
+  {
+    title: "AI Agents for Software Testing",
+    description:
+      "Agentic workflows for intelligent test generation and autonomous validation.",
   },
 ];
 
-export const experience = [
+export type ExperienceItem = {
+  title: string;
+  company: string;
+  period: string;
+  responsibilities: Array<{
+    text: string;
+    highlight?: string;
+  }>;
+  technologies: string[];
+};
+
+export const experience: ExperienceItem[] = [
   {
-    title: "Automation & QA Engineer",
+    title: "Software Development Engineer in Test",
     company: "Motadata",
     period: "Aug 2025 — Present",
     responsibilities: [
-      "Built Python automation solutions for production issue analysis and troubleshooting.",
-      "Developed custom Python plugins for customer-specific monitoring data processing.",
-      "Designed Selenium-Python automation frameworks reducing manual effort by approximately 40%.",
-      "Developed and validated REST APIs using FastAPI, Flask and Swagger.",
-      "Built log analysis workflows for debugging and root cause analysis.",
-      "Integrated automation solutions with Jenkins CI/CD pipelines.",
-      "Worked extensively on Linux environments for debugging and deployment.",
-      "Collaborated with cross-functional teams to resolve customer-facing production issues.",
+      {
+        text: "Built scalable Python automation frameworks using Pytest, Playwright, Selenium and Page Object Model architecture.",
+      },
+      {
+        text: "Reduced release checklist validation from 6 hours to 1 hour.",
+        highlight: "6 hours → 1 hour",
+      },
+      {
+        text: "Built an AI-assisted QA pipeline executing 23,000 regression test cases in under 3 hours.",
+        highlight: "23,000 tests in <3 hours",
+      },
+      {
+        text: "Reduced manual validation from 5 days to 1 day across release cycles.",
+        highlight: "5 days → 1 day",
+      },
+      {
+        text: "Developed reusable Python plugins for enterprise NMS workflow automation and data processing.",
+      },
+      {
+        text: "Reduced production bug resolution SLA from 2 weeks to 3 days through automated diagnostics.",
+        highlight: "2 weeks → 3 days",
+      },
+      {
+        text: "Automated REST API validation with schema checks, OAuth 2.0 and JWT authentication flows.",
+      },
+      {
+        text: "Performed backend validation using SQL queries, Linux log analysis and root cause investigation.",
+      },
+      {
+        text: "Integrated test automation with CI/CD pipelines via GitHub Actions, Jenkins and Docker.",
+      },
+      {
+        text: "Collaborated with cross-functional agile teams to deliver quality releases and resolve production issues.",
+      },
     ],
     technologies: [
       "Python",
+      "Pytest",
+      "Playwright",
       "Selenium",
-      "FastAPI",
-      "Flask",
-      "Swagger",
+      "REST APIs",
+      "GitHub Actions",
       "Jenkins",
+      "Docker",
       "Linux",
       "PostgreSQL",
     ],
@@ -163,61 +258,104 @@ export const experience = [
 ];
 
 export const projectsDescription =
-  "Selected work highlighting automation frameworks, API validation and AI-assisted troubleshooting for production support.";
+  "Enterprise-grade automation frameworks for UI, API and mobile testing — built for scalability, parallel execution and CI/CD integration.";
 
-export const projects = [
+export type ProjectItem = {
+  title: string;
+  description: string;
+  tags: string[];
+  featured: boolean;
+  href?: string;
+  liveUrl?: string;
+};
+
+export const projects: ProjectItem[] = [
   {
-    title: "AI Troubleshooter for L3 Support Automation",
+    title: "Python SDET Automation Framework",
     description:
-      "Built an AI-powered troubleshooting assistant for L3 support teams. Implemented RAG architecture and integrated Ollama-based LLMs for contextual issue resolution. Designed APIs and retrieval pipelines to improve production troubleshooting efficiency.",
+      "A modular enterprise-grade automation framework supporting UI, functional and end-to-end testing with parallel execution, retry mechanisms and reusable architecture.",
     tags: [
       "Python",
-      "FastAPI",
-      "Node.js",
-      "Ollama",
-      "RAG",
-      "Vector Database",
-      "REST APIs",
-      "Swagger",
-      "Linux",
+      "Pytest",
+      "Playwright",
+      "Selenium",
+      "POM",
+      "Fixtures",
+      "Allure Reports",
+      "Pytest-xdist",
+      "Docker",
+      "GitHub Actions",
     ],
-    href: "https://github.com/HellSlam99",
     featured: true,
+    href: "https://github.com/HellSlam99/selenium-pytest-framework",
   },
   {
-    title: "Emotion Analysis with Text Samples",
+    title: "API Automation Framework",
     description:
-      "Developed an NLP-based emotion classification system with interactive UI and modular architecture for real-time prediction.",
-    tags: ["Python", "Transformers", "Hugging Face", "Streamlit", "Pandas", "NumPy"],
-    href: "https://github.com/HellSlam99",
+      "Reusable REST API automation framework supporting schema validation, authentication, SQL-backed verification and backend regression testing.",
+    tags: [
+      "Python",
+      "Pytest",
+      "Requests",
+      "JSON Schema",
+      "Swagger",
+      "OAuth2",
+      "JWT",
+      "Postman",
+      "Docker",
+    ],
     featured: false,
+    href: "https://github.com/HellSlam99/api-automation-framework",
   },
   {
-    title: "Issue Tracking & Troubleshooting Suggestion System",
+    title: "Mobile Application Automation Framework",
     description:
-      "Developed a web-based issue tracking system with role-based access, troubleshooting suggestions and structured issue lifecycle management.",
-    tags: ["Laravel", "PHP", "MySQL", "MVC"],
-    href: "https://github.com/HellSlam99",
+      "Enterprise-ready Android automation framework supporting gestures, permissions, deep links and multi-device execution.",
+    tags: [
+      "Python",
+      "Appium",
+      "Pytest",
+      "Android Studio",
+      "ADB",
+      "UIAutomator2",
+      "POM",
+      "Docker",
+      "GitHub Actions",
+    ],
     featured: false,
+    href: "https://github.com/HellSlam99/python-appium-framework",
   },
 ];
 
 export const certifications = [
-  { title: "Python for Everybody", issuer: "University of Michigan" },
-  { title: "Data Science Fundamentals with Python and SQL", issuer: "IBM" },
   { title: "Build AI Agents using MCP", issuer: "Professional Development" },
   { title: "AWS Academy Cloud Foundations", issuer: "Amazon Web Services" },
-  { title: "The Bits and Bytes of Computer Networking", issuer: "Google" },
+  { title: "Tools of the Trade: Linux and SQL", issuer: "Professional Development" },
   { title: "Advanced Networking Concepts", issuer: "Professional Development" },
-  { title: "AIOps Fundamental", issuer: "Professional Development" },
-  { title: "Above & Beyond Appreciation", issuer: "Motadata" },
+  { title: "AIOps Fundamentals", issuer: "Professional Development" },
 ];
 
 export const terminalCommands = {
-  whoami: "SDET | QA Automation Engineer | Python Developer",
-  skills: ["Python", "Selenium", "Playwright", "FastAPI", "Jenkins", "Linux", "RAG", "Ollama"],
-  experience: "Automation & QA Engineer @ Motadata",
-  interests: ["Automation", "AI-assisted Troubleshooting", "System Design", "GenAI", "CI/CD"],
+  whoami: "Software Development Engineer in Test (SDET)",
+  skills: [
+    "Python",
+    "Pytest",
+    "Playwright",
+    "Selenium",
+    "Appium",
+    "REST APIs",
+    "GitHub Actions",
+    "Docker",
+    "Linux",
+  ],
+  experience: "SDET @ Motadata",
+  interests: [
+    "Automation Frameworks",
+    "AI-Assisted QA",
+    "API Testing",
+    "CI/CD",
+    "Enterprise NMS",
+  ],
 };
 
 export const contactCards = [

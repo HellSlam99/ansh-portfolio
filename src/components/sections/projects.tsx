@@ -69,7 +69,9 @@ export function Projects() {
                 </Badge>
               ))}
             </div>
+            {(project.href || project.liveUrl) && (
             <div className="mt-5 flex flex-wrap gap-2">
+              {project.href && (
               <Button variant="outline" size="sm" asChild>
                 <Link
                   href={project.href}
@@ -80,7 +82,8 @@ export function Projects() {
                   GitHub
                 </Link>
               </Button>
-              {"liveUrl" in project && !!project.liveUrl && (
+              )}
+              {project.liveUrl && (
                 <Button variant="ghost" size="sm" asChild>
                   <Link
                     href={project.liveUrl}
@@ -93,6 +96,7 @@ export function Projects() {
                 </Button>
               )}
             </div>
+            )}
           </CardContent>
         </Card>
       </motion.div>

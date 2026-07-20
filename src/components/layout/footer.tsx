@@ -47,7 +47,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {currentYear} {siteConfig.name}. Built with Next.js & Tailwind CSS.
+            &copy; {currentYear} {siteConfig.name}. Engineering confidence into every release.
           </p>
         </div>
       </div>
