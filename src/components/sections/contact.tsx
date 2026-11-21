@@ -111,7 +111,7 @@ export function Contact() {
               <span className="gradient-text">Together</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Open to SDET, QA Automation and Python Developer opportunities.
+              Open to QA cum Dev, SDET and AI-driven test engineering roles.
               Send a message and I&apos;ll respond promptly.
             </p>
           </div>

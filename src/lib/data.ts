@@ -1,23 +1,27 @@
 export const siteConfig = {
   name: "Ansh Garg",
   initials: "AG",
-  title: "Software Development Engineer in Test (SDET)",
+  title: "Associate QA Engineer · SDET · Dev",
   email: "anshgarg2593@gmail.com",
   location: "Surat, Gujarat, India",
   description:
-    "Designing scalable automation frameworks, API validation systems and AI-assisted quality engineering solutions for enterprise software.",
+    "QA cum Dev — I break software for a living, then write the code that keeps it fixed. Multi-agent LLM test platforms, self-healing Playwright suites and CI/CD at enterprise scale.",
   url: "https://github.com/HellSlam99",
   githubUsername: "HellSlam99",
-  linkedin: "https://www.linkedin.com/in/ansh-garg-898343314/",
-  resumePath: "/resume/Ansh_Garg_Resume.pdf",
+  linkedin: "https://www.linkedin.com/in/anshgarg2593/",
+  resumePath: "/resume/ANSH_GARG_Resume.pdf",
   profileImage: "/images/profile.png",
   profileImageAlt:
-    "Professional portrait of Ansh Garg, Software Development Engineer in Test, wearing a gray shirt and glasses while holding a laptop in a modern office setting.",
+    "Professional portrait of Ansh Garg, Associate QA Engineer and SDET, wearing a gray shirt and glasses while holding a laptop in a modern office setting.",
   ogImage: "/og-image.png",
   keywords: [
+    "Associate QA Engineer",
+    "QA cum Dev",
     "SDET",
-    "Software Development Engineer in Test",
-    "QA Automation Engineer",
+    "Multi-Agent LLM Systems",
+    "Claude Agent SDK",
+    "Self-Healing Test Automation",
+    "Load Testing",
     "Python Automation",
     "Test Automation Framework",
     "API Testing",
@@ -26,7 +30,6 @@ export const siteConfig = {
     "Pytest",
     "CI/CD",
     "AI-Assisted Testing",
-    "Quality Engineering",
   ],
 };
 
@@ -41,18 +44,18 @@ export const navLinks = [
 ];
 
 export const typingTexts = [
-  "Software Development Engineer in Test",
-  "QA Automation Engineer",
-  "Python Automation Engineer",
-  "Python Developer",
-  "AI-Assisted Testing Enthusiast",
+  "Associate QA Engineer",
+  "QA cum Dev",
+  "SDET who ships code",
+  "Multi-Agent LLM Builder",
+  "Breaking things before prod does",
 ];
 
 export const socialLinks = [
   { name: "GitHub", href: "https://github.com/HellSlam99", icon: "github" },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/ansh-garg-898343314/",
+    href: "https://www.linkedin.com/in/anshgarg2593/",
     icon: "linkedin",
   },
   { name: "Email", href: "mailto:anshgarg2593@gmail.com", icon: "mail" },
@@ -60,28 +63,43 @@ export const socialLinks = [
 
 export const stats = [
   { label: "Regression Tests Automated", value: 23, suffix: "K+" },
-  { label: "Release Validation Reduction", value: 83, suffix: "%" },
-  { label: "Manual Validation Reduction", value: 80, suffix: "%" },
-  { label: "Certifications", value: 5, suffix: "" },
+  { label: "Specialist AI Agents", value: 12, suffix: "" },
+  { label: "CI/CD Pipelines Orchestrated", value: 40, suffix: "" },
+  { label: "Agent Self-Tests", value: 184, suffix: "" },
 ];
 
 export const aboutContent = {
-  heading: "Quality Engineering &",
+  heading: "QA cum Dev &",
   headingAccent: "Automation",
   paragraphs: [
-    "Software Development Engineer in Test specializing in Python automation, framework architecture and AI-assisted quality engineering for enterprise NMS and observability platforms.",
-    "I design scalable automation frameworks with Pytest, Playwright and Selenium — covering UI, API and end-to-end validation with parallel execution, structured reporting and CI/CD integration.",
-    "My work spans REST API validation, Linux-based production diagnostics, SQL-backed backend verification and root cause analysis — reducing manual validation cycles and accelerating release confidence across agile teams.",
+    "QA cum Dev, if you know you know. I started as a tester and never stopped building — 1+ year at Motadata testing and engineering for an enterprise observability platform, writing Python and Node.js on both sides of the fence.",
+    "My flagship build: an orchestrator-based multi-agent platform on the Claude Agent SDK that turns a Jira ticket into a verified, self-healing Playwright suite — 12 specialist agents, a 10-stage pipeline, sandboxed permissions and human-approved fixes.",
+    "Beyond agents: Pytest/Playwright/Selenium frameworks, REST API validation, protocol-level load testing, Linux and SQL diagnostics, and CI/CD orchestration across 40 pipelines. Off the clock, my personal interests are QFRC and automating & optimizing daily processes.",
   ],
 };
 
 export const skillsDescription =
-  "End-to-end quality engineering across automation frameworks, API validation, CI/CD pipelines and AI-assisted testing workflows.";
+  "QA instincts, developer toolbelt — automation frameworks, multi-agent LLM systems, API and load testing, and CI/CD.";
 
 export const skillCategories = [
   {
     title: "Programming",
-    skills: ["Python", "JavaScript"],
+    skills: ["Python (Primary)", "JavaScript (Node.js)"],
+  },
+  {
+    title: "AI / LLM Engineering",
+    skills: [
+      "Claude Agent SDK",
+      "Multi-Agent Systems",
+      "MCP",
+      "Prompt Engineering",
+      "LLM Guardrails",
+      "Human-in-the-Loop",
+    ],
+  },
+  {
+    title: "Software Engineering",
+    skills: ["System Design", "OOP", "Concurrency", "WebSockets", "CLI Tools"],
   },
   {
     title: "Automation",
@@ -93,10 +111,12 @@ export const skillCategories = [
       "Functional Testing",
       "Regression Testing",
       "End-to-End Testing",
+      "Load/Performance Testing",
       "Cross Browser Testing",
       "Mobile Testing",
       "API Testing",
       "Data Driven Testing",
+      "Self-Healing Tests",
     ],
   },
   {
@@ -126,11 +146,20 @@ export const skillCategories = [
   },
   {
     title: "DevOps",
-    skills: ["Git", "GitHub", "GitHub Actions", "Jenkins", "Docker", "CI/CD"],
+    skills: [
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Jenkins",
+      "Azure DevOps",
+      "Jira",
+      "Docker",
+      "CI/CD",
+    ],
   },
   {
     title: "Database",
-    skills: ["MySQL", "PostgreSQL"],
+    skills: ["MySQL", "PostgreSQL", "ClickHouse", "H2"],
   },
   {
     title: "Systems",
@@ -138,7 +167,7 @@ export const skillCategories = [
   },
   {
     title: "Cloud",
-    skills: ["AWS", "Azure", "GCP", "HA", "DR"],
+    skills: ["AWS", "Azure", "GCP", "HA", "DR", "Cloud Deployment"],
   },
   {
     title: "Core Engineering",
@@ -151,42 +180,38 @@ export const skillCategories = [
       "Root Cause Analysis",
     ],
   },
-  {
-    title: "AI",
-    skills: ["AI-Assisted Test Case Generation", "AI-Assisted Test Execution"],
-  },
 ];
 
 export const currentlyExploring = [
   {
-    title: "Enterprise Test Automation Frameworks",
+    title: "Multi-Agent LLM Platforms",
     description:
-      "Designing modular, reusable frameworks for large-scale enterprise validation workflows.",
+      "Hub-and-spoke orchestration, capability registries and shared blackboards that keep agent runs cheap and auditable.",
   },
   {
-    title: "Playwright & Appium Automation",
+    title: "Self-Healing Test Automation",
     description:
-      "Cross-browser and mobile automation with modern tooling and device farm integration.",
+      "Cited root-cause triage, flaky-test regeneration and human-approved fixes for UI drift.",
   },
   {
-    title: "AI-Assisted QA Pipelines",
+    title: "Protocol-Level Load Testing",
     description:
-      "Integrating AI into test planning, execution and large-scale regression pipelines.",
+      "Finding the break point from p95 latency and login failures over WebSockets, without browser overhead.",
   },
   {
-    title: "Large Scale API Testing",
+    title: "Agent Sandboxing & Guardrails",
     description:
-      "Schema validation, authentication flows and backend regression at enterprise scale.",
+      "Permission modes, pre-tool hooks and write confinement to keep autonomous agents safe.",
   },
   {
-    title: "CI/CD Test Automation",
+    title: "CI/CD Release Orchestration",
     description:
-      "Pipeline-driven quality gates with parallel execution and automated reporting.",
+      "Running 40 build pipelines in a defined order with parallel groups.",
   },
   {
-    title: "AI Agents for Software Testing",
+    title: "MCP & AI Agents for Testing",
     description:
-      "Agentic workflows for intelligent test generation and autonomous validation.",
+      "Tool-using agents for intelligent test generation and autonomous validation.",
   },
 ];
 
@@ -203,62 +228,82 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    title: "Software Development Engineer in Test",
+    title: "Associate QA Engineer",
     company: "Motadata",
-    period: "Aug 2025 — Present",
+    period: "Sep 2026 — Present",
     responsibilities: [
       {
-        text: "Built scalable Python automation frameworks using Pytest, Playwright, Selenium and Page Object Model architecture.",
+        text: "Built a multi-agent LLM platform in Node.js on the Claude Agent SDK: a hub-and-spoke orchestrator routes work to 12 specialist agents via a capability registry and shared blackboard.",
+        highlight: "12 agents",
       },
       {
-        text: "Reduced release checklist validation from 6 hours to 1 hour.",
+        text: "Implemented a 10-stage pipeline turning a Jira ticket into an executed Playwright suite: requirements extraction, planning, code generation, live locator checks, execution, triage and reporting.",
+        highlight: "Jira → Playwright",
+      },
+      {
+        text: "Built self-healing automation: cited root-cause verdicts, flaky-test regeneration, human-approved UI-drift fixes and quarantine after 3 attempts; hardened 18 of 24 positional locators.",
+        highlight: "18/24 locators hardened",
+      },
+      {
+        text: "Engineered agent sandboxing with permission modes, pre-tool hooks and write confinement, backed by 184 automated self-tests, plus a concurrent batch runner with cost budgets and a real-time dashboard.",
+        highlight: "184 self-tests",
+      },
+      {
+        text: "Built a protocol-level load testing layer on a WebSocket virtual-user runner, modelling 5 user personas and finding the break point from p95 latency, partial-render rate and login failures.",
+        highlight: "5 personas",
+      },
+      {
+        text: "Automating release build orchestration across 40 CI/CD pipelines in a defined order with parallel groups.",
+        highlight: "40 pipelines",
+      },
+    ],
+    technologies: [
+      "Node.js",
+      "Claude Agent SDK",
+      "Playwright",
+      "Python",
+      "WebSockets",
+      "Jenkins",
+      "Jira",
+      "ClickHouse",
+    ],
+  },
+  {
+    title: "Trainee QA Engineer",
+    company: "Motadata",
+    period: "Aug 2025 — Aug 2026",
+    responsibilities: [
+      {
+        text: "Built Python test frameworks with Pytest, Playwright, Selenium and POM for UI, API and end-to-end testing, cutting release checklist validation from 6 hours to 1 hour.",
         highlight: "6 hours → 1 hour",
       },
       {
-        text: "Built an AI-assisted QA pipeline executing 23,000 regression test cases in under 3 hours.",
+        text: "Built an AI-assisted pipeline running 23,000 regression cases in under 3 hours, reducing manual validation from 5 days to 1 day.",
         highlight: "23,000 tests in <3 hours",
       },
       {
-        text: "Reduced manual validation from 5 days to 1 day across release cycles.",
-        highlight: "5 days → 1 day",
-      },
-      {
-        text: "Developed reusable Python plugins for enterprise NMS workflow automation and data processing.",
-      },
-      {
-        text: "Reduced production bug resolution SLA from 2 weeks to 3 days through automated diagnostics.",
+        text: "Wrote reusable Python plugins and diagnostics tooling for an enterprise NMS using REST APIs, SQL, Linux and log analysis, cutting production bug resolution from 2 weeks to 3 days.",
         highlight: "2 weeks → 3 days",
       },
       {
-        text: "Automated REST API validation with schema checks, OAuth 2.0 and JWT authentication flows.",
-      },
-      {
-        text: "Performed backend validation using SQL queries, Linux log analysis and root cause investigation.",
-      },
-      {
-        text: "Integrated test automation with CI/CD pipelines via GitHub Actions, Jenkins and Docker.",
-      },
-      {
-        text: "Collaborated with cross-functional agile teams to deliver quality releases and resolve production issues.",
+        text: "Ran suites in Jenkins, GitHub Actions and Docker. Internship Aug 2025 — May 2026; full-time from Jun 2026.",
       },
     ],
     technologies: [
       "Python",
       "Pytest",
-      "Playwright",
       "Selenium",
       "REST APIs",
-      "GitHub Actions",
-      "Jenkins",
-      "Docker",
+      "SQL",
       "Linux",
-      "PostgreSQL",
+      "GitHub Actions",
+      "Docker",
     ],
   },
 ];
 
 export const projectsDescription =
-  "Enterprise-grade automation frameworks for UI, API and mobile testing — built for scalability, parallel execution and CI/CD integration.";
+  "Frameworks built with a tester's paranoia and a developer's taste — UI, API and mobile, with parallel execution and CI/CD baked in.";
 
 export type ProjectItem = {
   title: string;
@@ -273,7 +318,7 @@ export const projects: ProjectItem[] = [
   {
     title: "Python SDET Automation Framework",
     description:
-      "A modular enterprise-grade automation framework supporting UI, functional and end-to-end testing with parallel execution, retry mechanisms and reusable architecture.",
+      "Pytest + Playwright/Selenium framework with POM, parallel runs, retries, Allure reports and GitHub Actions CI.",
     tags: [
       "Python",
       "Pytest",
@@ -292,7 +337,7 @@ export const projects: ProjectItem[] = [
   {
     title: "API Automation Framework",
     description:
-      "Reusable REST API automation framework supporting schema validation, authentication, SQL-backed verification and backend regression testing.",
+      "REST API framework (Pytest, Requests) with JSON Schema validation, OAuth 2.0/JWT auth and SQL-backed data checks.",
     tags: [
       "Python",
       "Pytest",
@@ -301,6 +346,7 @@ export const projects: ProjectItem[] = [
       "Swagger",
       "OAuth2",
       "JWT",
+      "Faker",
       "Postman",
       "Docker",
     ],
@@ -310,7 +356,7 @@ export const projects: ProjectItem[] = [
   {
     title: "Mobile Application Automation Framework",
     description:
-      "Enterprise-ready Android automation framework supporting gestures, permissions, deep links and multi-device execution.",
+      "Appium + Pytest Android framework (UIAutomator2, POM) for gestures, permissions and deep links across devices.",
     tags: [
       "Python",
       "Appium",
@@ -328,33 +374,35 @@ export const projects: ProjectItem[] = [
 ];
 
 export const certifications = [
-  { title: "Build AI Agents using MCP", issuer: "Professional Development" },
+  { title: "Build AI Agents using MCP", issuer: "Coursera (IBM)" },
   { title: "AWS Academy Cloud Foundations", issuer: "Amazon Web Services" },
-  { title: "Tools of the Trade: Linux and SQL", issuer: "Professional Development" },
-  { title: "Advanced Networking Concepts", issuer: "Professional Development" },
-  { title: "AIOps Fundamentals", issuer: "Professional Development" },
+  { title: "Tools of the Trade: Linux and SQL", issuer: "Coursera (Google)" },
+  { title: "Advanced Networking Concepts", issuer: "Motadata" },
+  { title: "AIOps Fundamentals", issuer: "Motadata" },
 ];
 
 export const terminalCommands = {
-  whoami: "Software Development Engineer in Test (SDET)",
+  whoami: "Associate QA Engineer — QA cum Dev (Python + Node.js)",
   skills: [
     "Python",
-    "Pytest",
+    "Node.js",
+    "Claude Agent SDK",
     "Playwright",
+    "Pytest",
     "Selenium",
-    "Appium",
     "REST APIs",
-    "GitHub Actions",
     "Docker",
     "Linux",
   ],
-  experience: "SDET @ Motadata",
+  experience:
+    "Associate QA Engineer @ Motadata (Trainee QA Aug 2025 → Sep 2026)",
   interests: [
-    "Automation Frameworks",
-    "AI-Assisted QA",
-    "API Testing",
-    "CI/CD",
-    "Enterprise NMS",
+    "QFRC",
+    "Automating & Optimizing Daily Processes",
+    "Multi-Agent LLM Systems",
+    "Self-Healing Automation",
+    "Load Testing",
+    "Breaking things in staging",
   ],
 };
 
@@ -369,8 +417,8 @@ export const contactCards = [
   {
     icon: "linkedin",
     label: "LinkedIn",
-    value: "ansh-garg-898343314",
-    href: "https://www.linkedin.com/in/ansh-garg-898343314/",
+    value: "anshgarg2593",
+    href: "https://www.linkedin.com/in/anshgarg2593/",
     copyable: true,
   },
   {

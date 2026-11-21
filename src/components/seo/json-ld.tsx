@@ -17,7 +17,7 @@ export function JsonLd() {
     },
     sameAs: [
       "https://github.com/HellSlam99",
-      "https://www.linkedin.com/in/ansh-garg-898343314/",
+      "https://www.linkedin.com/in/anshgarg2593/",
     ],
   };
 

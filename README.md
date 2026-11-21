@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ansh Garg — QA cum Dev
 
-## Getting Started
+Portfolio of **Ansh Garg**, Associate QA Engineer at Motadata (Surat, India). QA cum Dev: I break software for a living, then write the code that keeps it fixed.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1+ year testing and engineering for an enterprise observability platform, writing Python and Node.js on both sides of the fence.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Multi-agent LLM test platform** on the Claude Agent SDK: an orchestrator routing work to 12 specialist agents, turning a Jira ticket into a verified, self-healing Playwright suite through a 10-stage pipeline.
+- **Self-healing automation**: cited root-cause triage, flaky-test regeneration, human-approved UI-drift fixes, sandboxed agent permissions backed by 184 self-tests.
+- **Protocol-level load testing** over WebSockets with 5 user personas, finding break points from p95 latency and login failures.
+- **Release orchestration** across 40 CI/CD pipelines.
+- **23,000 regression tests** run in under 3 hours; release validation cut from 6 hours to 1 hour; production bug resolution cut from 2 weeks to 3 days.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Experience
 
-## Learn More
+| Role | Period |
+| --- | --- |
+| Associate QA Engineer, Motadata | Sep 2026 – Present |
+| Trainee QA Engineer, Motadata | Aug 2025 – Aug 2026 |
 
-To learn more about Next.js, take a look at the following resources:
+## Projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Python SDET Automation Framework](https://github.com/HellSlam99/selenium-pytest-framework) — Pytest + Playwright/Selenium, POM, parallel runs, Allure, GitHub Actions.
+- [API Automation Framework](https://github.com/HellSlam99/api-automation-framework) — REST validation with JSON Schema, OAuth 2.0/JWT and SQL-backed checks.
+- [Mobile Application Automation Framework](https://github.com/HellSlam99/python-appium-framework) — Appium + Pytest Android framework.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Education & Certifications
 
-## Deploy on Vercel
+- B.Tech, Computer Science Engineering — P. P. Savani University, Surat (2022–2026), CGPA 7.9
+- Build AI Agents using MCP (Coursera, IBM) · AWS Academy Cloud Foundations · Tools of the Trade: Linux and SQL (Coursera, Google) · Advanced Networking Concepts and AIOps Fundamentals (Motadata)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Beyond Work
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+QFRC, and automating & optimizing daily processes.
+
+## Get in Touch
+
+- LinkedIn: [linkedin.com/in/anshgarg2593](https://www.linkedin.com/in/anshgarg2593/)
+- GitHub: [HellSlam99](https://github.com/HellSlam99)
+- Email: anshgarg2593@gmail.com
