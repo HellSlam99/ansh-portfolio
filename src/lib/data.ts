@@ -9,7 +9,7 @@ export const siteConfig = {
   url: "https://github.com/HellSlam99",
   githubUsername: "HellSlam99",
   linkedin: "https://www.linkedin.com/in/anshgarg2593/",
-  resumePath: "/resume/ANSH_GARG_Resume.pdf",
+  resumePath: "/resume/Ansh_Garg_Resume.pdf",
   profileImage: "/images/profile.png",
   profileImageAlt:
     "Professional portrait of Ansh Garg, Associate QA Engineer and SDET, wearing a gray shirt and glasses while holding a laptop in a modern office setting.",
